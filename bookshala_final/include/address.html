@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fill address</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+body{
+
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+ .container{
+    display: flex;
+    flex-direction: column;
+  height: 450px;
+  width: 90%;
+  background-color: #f9fafe;
+  padding: 20px 0;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 5px;
+ }
+ form{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    height: 30px;
+    width: 80%;
+    outline: none;
+    border: 2px solid #088395 ;
+    color: #1b2428;
+    padding: 2px 2px 4px 4px;
+    font-size: 18px;
+    margin-inline: auto;
+}
+/* input::placeholder{
+color: #fif8f8;
+} */
+h2{
+  text-align: center;
+  margin: 10px 0px ;
+}
+.btn{
+  outline: none;
+  background: #088395;
+  color: white;
+  margin-top: 5px;
+  height: 40px;
+  font-size: 20px
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>ADD YOUR ADDRESS HERE </h2>
+        <form action="">
+            <input type="text" placeholder="address line 1">
+            <input type="text" placeholder="address line 2">
+            <input type="text" placeholder="city">
+            <input type="text" placeholder="state">
+            <input type="text" placeholder="district">
+            <input type="number" placeholder="postal code">
+            <input type="number" placeholder="mobile number">
+            <input class="btn" type="submit" value="CONFIRM ADDRESS">
+        </form>
+    </div>
+</body>
+
+</html>
