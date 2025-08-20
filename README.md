@@ -1,4 +1,4 @@
-# Bookshal 📚
+# Bookshala 📚
 
 A web platform for buying and selling second-hand books, built with PHP.
 
